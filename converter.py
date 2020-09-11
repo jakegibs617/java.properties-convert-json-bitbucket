@@ -4,7 +4,6 @@ import json
 import requests
 import config
 import re
-import numpy as np
 
 # this curl request is a good place to start to make sure that part is working, then once that has success, the rest of this file is how to do it in python
 # curl -k -H "Authorization: Bearer {myToken}" https://stash.site.local/rest/api/1.0/projects/{name}/repos/{destination}/raw/{path}.properties?at=refs/heads/master
